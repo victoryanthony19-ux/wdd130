@@ -62,7 +62,7 @@ h2 {
 
 }
 article {
-    position: absolute;
+    position: inherit;
     bottom: 20px;
     padding: 20px;
     text-align: left;
