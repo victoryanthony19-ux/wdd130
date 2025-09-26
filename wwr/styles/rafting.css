@@ -62,16 +62,20 @@ h2 {
 
 }
 article {
-    position: inherit;
-    bottom: 20px;
-    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
     text-align: left;
     background-color: var(--accent2-color);
     color: var(--accent1-color);
+    align-items: center;
+    box-sizing: border-box;
 }
 .hero article img {
     float: right;
-    width: 125px;
+    width: 250px;
+    height: auto;
     }
     footer {
         text-align: center;
